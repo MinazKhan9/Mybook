@@ -1,0 +1,130 @@
+.main {
+    height: 50px;
+    background-color: #405d9b;
+    color: #d9dfeb;
+    font-family: tahoma;
+}
+
+.nav {
+    width: 800px;
+    margin: auto;
+    font-size: 30px;
+}
+
+.search_box {
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 4px;
+    font-size: 14px;
+    background-image: url('../img/search.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25px 25px;
+}
+
+.img1 {
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+.content {
+    width: 800px;
+    margin: auto;
+    min-height: 400px;
+}
+
+.content1 {
+    background-color: white;
+    text-align: center;
+    color: #405d9b;
+}
+
+.img2 {
+    width: 100%;
+
+}
+.img3{
+    width: 150px;
+    height: 150px;
+    margin-top: -200px;
+    border-radius: 50%;
+    border: solid 2px white;
+}
+.menu_button{
+    width: 100px;
+    display: inline-block;
+    margin: 2px;
+}
+.menu_button a{
+    text-decoration: none;
+    color: #405d9b;
+}
+.content2{
+    display: flex;
+}
+.con1{
+    min-height: 400px;
+    flex: 1;
+}
+.con2{
+    min-height: 400px;
+    flex: 2.5;
+    padding: 20px;
+    padding-right: 0px;
+    
+}
+.friends_bar{
+    background-color: white;
+    min-height: 400px;
+    margin-top: 20px;
+    color: #aaa;
+    padding: 8px;
+}
+.friends{
+    clear: both;
+    font-size: 12px;
+    font-weight: bold;
+    color: #405d9b;
+}
+.post_button{
+    float: right;
+    background-color: #405d9b;
+    border: none;
+    color: white;
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 2px;
+    width: 50px;
+}
+.friends_img{
+    width: 75px;
+    height: 60px;
+    float: left;
+    margin: 8px;
+}
+.con_1{
+    border: solid thin #aaa;
+    padding: 10px;
+    background-color: white;
+}
+.textarea{
+    width: 100%;
+    border: none;
+    font-family: tahoma;
+    font-size: 14px;
+    height: 60px;
+}
+.post_bar{
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+}
+.post{
+    padding: 4px;
+    font-size: 13px;
+    display: flex;
+    margin-bottom: 20px;
+}
